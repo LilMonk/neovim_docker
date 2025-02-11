@@ -1,0 +1,10 @@
+services:
+  # build nvim image from ubuntu
+  nvim:
+    image: lilmonk/neovim:latest
+    container_name: nvim
+    build: ./alpine
+    # command: sleep infinity
+    tty: true
+    volumes:
+      - ./nvim:/home/neovim/.config/nvim
