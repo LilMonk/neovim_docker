@@ -11,7 +11,7 @@ This repository contains a Docker setup for running Neovim in a containerized en
 
 1. Clone this repository:
     ```sh
-    git clone https://github.com/yourusername/neovim_docker.git
+    git clone https://github.com/LilMonk/neovim_docker.git
     cd neovim_docker
     ```
 
